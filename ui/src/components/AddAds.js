@@ -60,7 +60,7 @@ class AddAds extends Component {
         })
        
         console.log('publishing...')
-        const _url = process.env.NODE_ENV === 'production' ?  "https://blooming-hamlet-94124.herokuapp.com/api/" : "/api/";
+        const _url = "https://blooming-hamlet-94124.herokuapp.com/api/";
         // const _url = process.env.NODE_ENV === 'production' ? "/api/" : "http://localhost:5000/api/"
         const formdata = new FormData();
        let id=0;
