@@ -64,7 +64,7 @@ class AddNews extends Component {
         })
         console.log(this.state)
         console.log('publishing...')
-        const url = process.env.NODE_ENV === 'production' ?  "https://blooming-hamlet-94124.herokuapp.com/api/" : "/api/"
+        const _url = process.env.NODE_ENV === 'production' ?  "https://blooming-hamlet-94124.herokuapp.com/api/" : "/api/"
         // const _url = process.env.NODE_ENV === 'production' ? "/api/" : "http://localhost:5000/api/"
         const formdata = new FormData();
         let id=0;
