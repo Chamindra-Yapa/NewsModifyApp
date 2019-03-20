@@ -16,6 +16,10 @@
   "dependencies": {
     "express": "^4.16.4"
   },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Chamindra-Yapa/NewsModifyApp.git"
+  },
   "keywords": [
     "node",
     "heroku",
