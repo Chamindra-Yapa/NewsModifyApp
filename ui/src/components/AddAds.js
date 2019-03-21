@@ -73,7 +73,8 @@ class AddAds extends Component {
         formdata.append('description', this.state.description)
         formdata.append('createdBy', this.state.createdBy)
         formdata.append('url', this.state.url)
-        formdata.append('image', this.state.image);
+       formdata.append('image', this.state.image.substring(this.state.image.lastIndexOf("\\")+1));
+        console.log(this.state.image.substring(this.state.image.lastIndexOf("\\")+1));
         console.log(formdata);
         if (id!==0) {
             axios.post(`${_url}ad`, /*{
