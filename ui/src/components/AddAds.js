@@ -113,7 +113,6 @@ class AddAds extends Component {
     }
     controlChange=(evt)=>{
          this.setState({[evt.target.name]:evt.target.value});
-        
     }
        
     render() {
